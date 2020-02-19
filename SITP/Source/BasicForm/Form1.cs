@@ -149,7 +149,7 @@ namespace SITP
             }
             catch { }
 
-            this._clsInfo.logger.WriteLine("\r\n Mainform_Load() 정상 ..");
+            //this._clsInfo.logger.WriteLine("\r\n Mainform_Load() 정상 ..");
 
             // Immediately accept the new value once the value of the control has changed
             // (for example, the dateTimePicker and the comboBox)
