@@ -11,3 +11,4 @@ C:\MakeJob\SITP\ListViewEx\obj\Debug\ListViewEx.SubItemEventArgs.resources
 C:\MakeJob\SITP\ListViewEx\obj\Debug\ListViewEx.csproj.GenerateResource.cache
 C:\MakeJob\SITP\ListViewEx\obj\Debug\ListViewEx.dll
 C:\MakeJob\SITP\ListViewEx\obj\Debug\ListViewEx.pdb
+C:\MakeJob\SITP\ListViewEx\obj\Debug\ListViewEx.csprojAssemblyReference.cache

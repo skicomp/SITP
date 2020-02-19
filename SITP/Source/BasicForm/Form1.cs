@@ -846,8 +846,6 @@ namespace SITP
                     String strSeq = lstPort.SelectedItems[0].SubItems[0].Text;
                     String strPort = lstPort.SelectedItems[0].SubItems[1].Text;
 
-                    contextMenuStrip1.Visible = true;
-
                     try
                     {
                         int nIndex = Convert.ToInt32(strSeq);
@@ -893,8 +891,8 @@ namespace SITP
                     }
                     catch { }
 
-                    //contextMenuStrip1.Visible = true;
                     //contextMenuStrip1.Show(e.Location);
+                    contextMenuStrip1.Visible = true;
                     contextMenuStrip1.Show(Cursor.Position);
                 }
             }
