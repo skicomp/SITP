@@ -1,0 +1,14 @@
+C:\MakeJob\SITP\SITP\bin\Debug\ListViewEx.dll
+C:\MakeJob\SITP\SITP\bin\Debug\ListViewEx.pdb
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.csprojAssemblyReference.cache
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.csproj.GenerateResource.cache
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.csproj.CopyComplete
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.Form1.resources
+C:\MakeJob\SITP\SITP\bin\Debug\SITP.exe.config
+C:\MakeJob\SITP\SITP\bin\Debug\SITP.exe
+C:\MakeJob\SITP\SITP\bin\Debug\SITP.pdb
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.exe
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.pdb
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.Properties.Resources.resources
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.frmConfig.resources
+C:\MakeJob\SITP\SITP\obj\Debug\SITP.ConnectTest.resources

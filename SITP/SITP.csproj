@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FF429FB-BB20-4B68-8CEA-330C2A644A0B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>SITP</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SITP</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Source\BasicClass\AES256Cipher.cs" />
+    <Compile Include="Source\BasicClass\AESCrypto.cs" />
+    <Compile Include="Source\Common\Events.cs" />
+    <Compile Include="Source\Manager\AgentTimer.cs" />
+    <Compile Include="Resources\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Source\BasicClass\clsResize.cs" />
+    <Compile Include="Source\Common\CommonUtils.cs" />
+    <Compile Include="Source\BasicForm\ConnectTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\BasicForm\ConnectTest.designer.cs">
+      <DependentUpon>ConnectTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Common\ConstData.cs" />
+    <Compile Include="Source\BasicForm\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\BasicForm\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\BasicForm\frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\BasicForm\frmConfig.designer.cs">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Common\info.cs" />
+    <Compile Include="Source\BasicClass\iniFile.cs" />
+    <Compile Include="Source\BasicClass\LogManager.cs" />
+    <Compile Include="Source\Manager\ConnectPort.cs" />
+    <Compile Include="Source\Manager\RUManager.cs" />
+    <Compile Include="Source\BasicClass\ListViewEx2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Source\Manager\PortManager.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Common\SITPCommon.cs" />
+    <Compile Include="Source\BasicClass\Tail.cs" />
+    <Compile Include="Source\BasicClass\TelnetInterface.cs" />
+    <Content Include="Resources\App.ico" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Images\PROP.BMP" />
+    <None Include="Images\GROUP.BMP" />
+    <None Include="Images\BACK.BMP" />
+    <EmbeddedResource Include="Source\BasicForm\ConnectTest.resx">
+      <DependentUpon>ConnectTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\BasicForm\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\BasicForm\frmConfig.resx">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ListViewEx\ListViewEx.csproj">
+      <Project>{35a5c415-0906-4ac7-b0f6-fe3cca884ad9}</Project>
+      <Name>ListViewEx</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
